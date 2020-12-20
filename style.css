@@ -1,0 +1,91 @@
+/* * {
+    background: rgb(158, 187, 212);
+} */
+body {
+    padding: 0;
+    margin: 0;
+}
+input {
+    width: 100px;
+}
+.button {
+    border: 1px solid black;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: rgb(255 237 231);
+    margin-right: 5px;
+    cursor: pointer;
+}
+.button:hover {
+    background-color:#aa546d;
+    color: #ffffff;
+}
+.admin {
+    background-color: #e9c3b6;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+.input {
+    display: flex;
+    margin-bottom: 15px;
+    flex-wrap: wrap;
+    /* padding: 40px; */
+}
+.input div {
+    margin-right: 10px;
+}
+.input p {
+    color: #965856;
+    font-weight: bold;
+}
+.controls {
+    display: flex;
+    text-align: center;
+}
+.output {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+}
+.box {
+    border: 1px solid black;
+    padding: 10px;
+    height: 40px;
+    width: 80px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 40px;
+    margin: 5px;
+    border-radius: 5px;
+
+}
+.fizz {
+    background-color: #c07f7e;
+    color: #fff;
+}
+.buzz {
+    background-color: rgb(161 110 141);
+    color: #fff;
+}
+
+.fizzbuzz {
+    background-color: #965856;
+    color: #fff;
+}
+.numbers {
+    background-color: #E2B091;
+}
+/* .fizz {
+    background-color: #F67280;
+}
+.buzz {
+    background-color: #C06C84;
+}
+
+.fizzbuzz {
+    background-color: #6C5B7B;
+}
+.numbers {
+    background-color: #F8B195;
+} */
